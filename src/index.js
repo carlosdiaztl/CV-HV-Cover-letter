@@ -1,11 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import AppPrincipal from './router/AppPrincipal';
-
+import Router from './routes/Router';
+import './style.scss'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <AppPrincipal/>
-  </React.StrictMode>
+    <Router />
 );
