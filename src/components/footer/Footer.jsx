@@ -13,7 +13,7 @@ const Footer = () => {
     {
         listaFooter.map((item,index)=>(
         <section key={index}>
-                <img src={item.img} />
+                <img src={item.img} alt=""/>
                 <h6> {item.text} </h6>
 
         </section>
