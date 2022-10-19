@@ -3,40 +3,120 @@
 *{
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    box-sizing:border-box;
 }
 body {
     width: 100vw;
     height: 100vh;
+    & h1{
+        font-family:roboto;
+    }
    
 }
 main{
-    padding: 5px;
-    background-color: rgb(68, 27, 163);
+    background-color: rgba(120, 162, 216, 0.856);
     width: 100vw;
     height: 100vh;
     display: flex;
+   
 }
 .divRender{
     display: flex;
     flex-direction: column;
     padding: 5px;
-    background-color: aqua;
     width: 32%;
     gap: 30px;
     justify-content: space-evenly;
+    & button{
+        background-color: transparent;
+        border: none;
+    }
+
+    & section{
+        & hr{
+            width: 60%;
+        }
+    }
     & img{
         width: 45%;
     }
 }
 .divToRender{
+    height: 100%;
+  
     padding: 5px;
-    background-color: brown;
     width: 68%;
+    background-color: rgba(253, 247, 247, 0.61);
+   
+    
    
 }
 .header{
-    & img{
-        width: 100px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+        align-content: center;
+        align-self: center;
+        align-items: center;
+        justify-self: center;
+        justify-items: center;
+        gap: 20%;
+       
+   
+    a{
+        width: 33%;
     }
+    & img{
+        width: 70%;
+    }
+}
+.footer{
+    position: absolute;
+    width: 50%;
+    bottom: 1%;
+    right: 9%;
+    gap: 2px;
+    display: flex;
+    justify-content: center;
+    & section{
+        display: flex;
+        flex-direction: column;
+        padding: 0px 5px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+        & img{
+            width: 20%;
+        }
+    }
+}
+.ej2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 55%;
+    margin-left: 5%;
+    & section{
+        gap: 5px;
+        text-align: justify;
+        margin-left: 20%;;
+    }
+    
+}
+.ej{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    height: 55%;
+    & section{
+        gap: 5px;
+        text-align: center;
+    }
+    
 }

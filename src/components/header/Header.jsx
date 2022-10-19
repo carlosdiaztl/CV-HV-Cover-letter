@@ -17,8 +17,8 @@ const Header = () => {
     <div className='header'> 
     {
         listaHeader.map((item,index)=>(
-            <section>
-            <a href={item.link} ><img src={item.img} alt=""  /> </a>
+            <section  key={index}>
+            <a href={item.link} ><img src={item.img} alt=""/> </a>
                  
     
 

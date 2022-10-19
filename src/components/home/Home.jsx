@@ -1,22 +1,27 @@
 import React from 'react'
 import { useState } from "react";
 import bateria from '../../icons/bateria.png'
-import youtube from '../../icons/YouTube-Logo.png'
+import Footer from '../footer/Footer';
 import Header from '../header/Header';
+import Ej from '../minisEX/Ej';
+import Ej2 from '../minisEX/Ej2';
+import Ej3 from '../minisEX/Ej3';
+import yo from '../../icons/yo.jfif'
 const Home = () => {
   let listaIzquierda=['Sobre mi','Educación','Habilidades']
-    const [titulo , setTitulo] = useState( <> aqui un super mega diseño<div> <h3> con todos los juegutes</h3></div></>)
+  const initialState=< ><div style={{display:'flex',flexDirection:'column',alignItems:'center'}}><img style={{width:'200px'}} src={yo} alt="mi persona" /><h2> Siempre dispuesto a entregar una ayuda efectiva.</h2> </div>  </>
+    const [info , setInfo] = useState(initialState)
     const  changetittle=(cambio)=>{
-      if (cambio==="Sobre mi") { setTitulo(<> aqui un super mega diseño<div> <h3> sin todos los juegutes</h3>y</div></>)
+      if (cambio==="Sobre mi") { setInfo( <Ej/> )
           
       }
       else if(cambio==="Educación"){
-          setTitulo(<> aqui un super mega diseño<div> <h3> los juegutes</h3>x</div></>)
+        setInfo(<Ej2/>)
           
   
       }
       else if(cambio==="Habilidades"){
-        setTitulo(<> aqui un super mega diseño<div> <h3> los juegutes</h3>f</div></>)
+        setInfo(<Ej3/>)
 
     }
       else{}
@@ -43,9 +48,9 @@ const Home = () => {
     </div>
     <div className='divToRender'> 
     <Header/>
-    <h3>{titulo} </h3>
+    {info} 
     
- 
+        <Footer/>
     </div>
 
     </main>
