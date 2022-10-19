@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/CV-HV-Cover-letter/static/css/main.eb757d7c.css",
+    "main.js": "/CV-HV-Cover-letter/static/js/main.6221990e.js",
+    "static/media/yo.jfif": "/CV-HV-Cover-letter/static/media/yo.f85520c247c6904bd203.jfif",
+    "static/media/github.png": "/CV-HV-Cover-letter/static/media/github.39e986cf3049d714012f.png",
+    "static/media/YouTube-Logo.png": "/CV-HV-Cover-letter/static/media/YouTube-Logo.c94c486247afe814152e.png",
+    "static/media/lapiz.png": "/CV-HV-Cover-letter/static/media/lapiz.1adab06f0f07cb8aacea.png",
+    "static/media/bateria.png": "/CV-HV-Cover-letter/static/media/bateria.a28fdc29ee7f5da9345e.png",
+    "static/media/pc.png": "/CV-HV-Cover-letter/static/media/pc.f93e309c712599ff9393.png",
+    "static/media/logo-linkedin-.png": "/CV-HV-Cover-letter/static/media/logo-linkedin-.73383bc52138284de0a8.png",
+    "index.html": "/CV-HV-Cover-letter/index.html",
+    "main.eb757d7c.css.map": "/CV-HV-Cover-letter/static/css/main.eb757d7c.css.map",
+    "main.6221990e.js.map": "/CV-HV-Cover-letter/static/js/main.6221990e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eb757d7c.css",
+    "static/js/main.6221990e.js"
+  ]
+}
