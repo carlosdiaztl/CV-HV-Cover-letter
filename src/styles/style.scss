@@ -3,5 +3,40 @@
 *{
     padding: 0;
     margin: 0;
-    box-sizing: content-box;
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+   
+}
+main{
+    padding: 5px;
+    background-color: rgb(68, 27, 163);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+.divRender{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    background-color: aqua;
+    width: 32%;
+    gap: 30px;
+    justify-content: space-evenly;
+    & img{
+        width: 45%;
+    }
+}
+.divToRender{
+    padding: 5px;
+    background-color: brown;
+    width: 68%;
+   
+}
+.header{
+    & img{
+        width: 100px;
+    }
 }
