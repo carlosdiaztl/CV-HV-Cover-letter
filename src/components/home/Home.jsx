@@ -6,10 +6,10 @@ import Header from '../header/Header';
 import Ej from '../minisEX/Ej';
 import Ej2 from '../minisEX/Ej2';
 import Ej3 from '../minisEX/Ej3';
-import yo from '../../icons/yo.jfif'
+
 const Home = () => {
   let listaIzquierda=['Sobre mi','Educación','Habilidades']
-  const initialState=< ><div style={{display:'flex',flexDirection:'column',alignItems:'center'}}><img style={{width:'200px'}} src={yo} alt="mi persona" /><h2> Siempre dispuesto a entregar una ayuda efectiva.</h2> </div>  </>
+  const initialState=< ><div style={{display:'flex',flexDirection:'column',alignItems:'center'}}><h2> Siempre dispuesto a entregar una ayuda efectiva.</h2> </div>  </>
     const [info , setInfo] = useState(initialState)
     const  changetittle=(cambio)=>{
       if (cambio==="Sobre mi") { setInfo( <Ej/> )

@@ -2,6 +2,7 @@ import React from 'react'
 import linked from '../../icons/logo-linkedin-.png'
 import github from '../../icons/github.png'
 import youtube from '../../icons/YouTube-Logo.png'
+import yo from '../../icons/yo.jfif'
 
 
 
@@ -13,7 +14,11 @@ let listaHeader=[
 const Header = () => {
   return (
     <>
+    <span style={{display:'flex',
+    flexDirection:'column',justifyContent:'center',alignItems:'center',marginBottom:'-50px'}}> 
+    <img style={{width:'150px'}} src={yo} alt="mi persona" />
     <h1>Carlos Andrés Díaz Álzate </h1>
+    </span>
     <div className='header'> 
     {
         listaHeader.map((item,index)=>(
